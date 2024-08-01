@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BatteryShare App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>BatteryShare App</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>Stay Connected, Always</h2>
+            <p>Share your device's battery percentage with your loved ones and stay in touch.</p>
+            <button id="downloadBtn">Download Now</button>
+        </div>
+    </section>
+    <section id="features" class="container">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Real-Time Battery Sharing</h3>
+            <p>Instantly share your battery percentage with anyone in your contacts.</p>
+        </div>
+        <div class="feature">
+            <h3>Battery Health Analytics</h3>
+            <p>Get detailed insights into your battery health and usage patterns.</p>
+        </div>
+        <div class="feature">
+            <h3>Custom Notifications</h3>
+            <p>Set custom alerts for low battery notifications for you and your contacts.</p>
+        </div>
+    </section>
+    <section id="pricing" class="container">
+        <h2>Pricing</h2>
+        <div class="pricing-plan">
+            <h3>Basic</h3>
+            <p>Free</p>
+            <ul>
+                <li>Real-Time Battery Sharing</li>
+                <li>Basic Notifications</li>
+            </ul>
+        </div>
+        <div class="pricing-plan">
+            <h3>Premium</h3>
+            <p>$9.99/month</p>
+            <ul>
+                <li>All Basic Features</li>
+                <li>Battery Health Analytics</li>
+                <li>Custom Notifications</li>
+            </ul>
+        </div>
+        <div class="pricing-plan">
+            <h3>Family Plan</h3>
+            <p>$19.99/month</p>
+            <ul>
+                <li>All Premium Features</li>
+                <li>Up to 5 Family Members</li>
+                <li>Priority Support</li>
+            </ul>
+        </div>
+    </section>
+    <section id="testimonials" class="container">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"BatteryShare has made it so much easier to stay connected with my family."</p>
+            <h4>- John Doe</h4>
+        </div>
+        <div class="testimonial">
+            <p>"I love the custom notifications. I never run out of battery unexpectedly."</p>
+            <h4>- Jane Smith</h4>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BatteryShare. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
